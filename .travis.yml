@@ -9,4 +9,5 @@ deploy:
   provider: heroku
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  on: develop
+  on:
+    branch: master
