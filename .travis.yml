@@ -9,3 +9,8 @@ deploy:
   github-token: $GITHUB_TOKEN
   on:
     branch: master
+  app: 
+    master: lao-community
+
+  on_success: always
+  on_failure: always
