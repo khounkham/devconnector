@@ -1,16 +1,3 @@
 language: node_js
 node_js:
   - "node"
-services:
-  - mongodb
-deploy:
-  provider: heroku
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  on:
-    branch: master
-  app: 
-    master: lao-community
-
-  on_success: always
-  on_failure: always
