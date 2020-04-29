@@ -12,7 +12,7 @@ const Landing = ( {isAuthenticated}) => {
         <section className="Mainlanding">
         <div className="dark-overlay">
           <div className="landing-inner">
-            <h1 className="x-large">Lao Student Association, Newzealand</h1>
+            <h1 className="x-large">Lao Student Association, New Zealand</h1>
             <p className="lead">
               Student profile/portfolio, share posts and get help from
               other students
